@@ -5,5 +5,6 @@ build/
 __pycache__/
 *.pyc
 .env
+*.log
+*.db
 .DS_Store
-
