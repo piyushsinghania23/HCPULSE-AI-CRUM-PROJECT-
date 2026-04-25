@@ -142,20 +142,30 @@ select {
 .timeline {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
 }
 
 .timeline-item {
   border: 1px dashed #c4d7e0;
-  border-radius: 12px;
-  padding: 12px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  line-height: 1.1;
+  margin: 0;
 }
 
 .timeline-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
+  gap: 8px;
+}
+
+.timeline-item p {
+  margin: 1px 0;
+  padding: 0;
+  line-height: 1.1;
+  font-size: 13px;
 }
 
 .muted {
